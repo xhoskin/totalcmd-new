@@ -15,7 +15,6 @@ WCMZIP64.DLL 64-bit ZIP packer
 WCUNINST.WUL Old uninstall list of Wincmd
 DEFAULT.BAR Default button bar file
 NOCLOSE64.EXE Used when launching command line program with Shift+Enter to keep the console open
-NO.BAR Empty button bar file
 SFXHEAD.SFX Self extracting header for ZIP
 WCMICONS.DLL Icons for button bar
 WCMICONS.INC Mapping table: internal command -> icon index
