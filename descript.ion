@@ -1,0 +1,21 @@
+UNRAR64.DLL 64-bit RAR unpacker
+CGLPT64.SYS Parallel port driver for Windows XP/Vista/7 X64
+TCLZMA64.DLL 64-bit LZMA packer/unpacker
+TCMADM64.EXE Tool to copy/delete/create folder/remove folder with administrator rights
+TCMDX32.EXE 64-bit to 32-bit tool (for context menu)
+TCUNIN64.EXE Uninstall or repair Total Commander 64-bit
+TCUNIN64.WUL Uninstall list (files to be removed)
+TCUNINST.WUL Uninstall list (files to be removed)
+TCUNZL64.DLL 64-bit Unzip/ZLIB library
+TcUsbRun.exe USB cable insert notification handler (run to activate/deactivate)
+TOTALCMD.INC Command strings for menu and button bar
+TOTALCMD64.EXE Total Commander 64-bit (main program)
+TOTALCMD64.EXE.MANIFEST Enables XP style on PCs where the internal manifest resource is ignored
+WCMZIP64.DLL 64-bit ZIP packer
+WCUNINST.WUL Old uninstall list of Wincmd
+DEFAULT.BAR Default button bar file
+NOCLOSE64.EXE Used when launching command line program with Shift+Enter to keep the console open
+NO.BAR Empty button bar file
+SFXHEAD.SFX Self extracting header for ZIP
+WCMICONS.DLL Icons for button bar
+WCMICONS.INC Mapping table: internal command -> icon index

@@ -1,0 +1,261 @@
+<html>
+
+<head>
+
+<title>Excellence documentation</title>
+
+
+<style type="text/css">
+  body  { background-color:#c3e0f7;  color:#000000;  font-family:Verdana,Arial,Sans-serif;  font-size:80%; }
+  td    { font-size:80%;  vertical-align:text-top; padding-left:10px;}     /* tables*/
+  table { padding-left:20px; }                                             /* tables*/
+  .g    { color:#999999;  position:relative;  left:20px;  font-family:Monospace;  font-size:1.2em; }    /* gray indented*/
+  .h    { color:#1b6daf;  font-size:1.3em;  font-weight:bold; }    /* headings */
+  .s, a { color:#1b6daf; }    /* special text and links */
+  .i    { font-style:italic; }  /* italic */
+  .e    { color:#ff3355; }    /* todo, error or text that needs revision */
+</style>
+
+
+<script type="text/javascript">
+function toggleDiv( element ) 
+{
+    var e = document.getElementById(element);
+    if (e)  e.style.display = ((e.style.display != 'block') ? 'block' : 'none');
+}
+</script>
+
+
+</head>
+
+<body>
+
+
+<p>
+  &nbsp;
+</p>
+
+
+<p style="text-align:center">
+  <span class="h" style="font-size:1.8em">Excellence</span>, version 1.20
+</p>
+
+  
+<p>
+  <span class="h">overview</span> 
+  <br>
+  This is a <a href="http://www.ghisler.com">Total Commander</a> Lister plugin 
+  which displays text and numbers from spreadsheet files created by OpenOffice 
+  Calc, Microsoft Excel, Gnumeric, KSpread and similar programs.
+</p>
+
+
+<p> 
+  <span class="h">installation</span>
+  <br>
+  Before you install the new version, you must remove the old version. I'm sorry, but it 
+  is necessary or the plugin will not load newly supported file types. <br>
+  <a href="javascript: toggleDiv('remv')">Procedure  &gt;&gt;</a> 
+  <div style="display: block; padding-left:40px;" id="remv">
+    One way is to open <span class="s i">Configuration</span> menu, then to 
+    <span class="s i">Options</span>, <span class="s i">Plugins</span>, then fourth button 
+    (<span class="s i">Configure</span>); find Excellence in the list and remove it. Another 
+    way is to open <span class="s i">wincmd.ini</span> and find excellence in 
+    <span class="s i">[ListerPlugins]</span> section; it is sufficient to remove the "detect 
+    string". Actually it is ok to remove the detect string after the installation. That will 
+    tell commander to request a new one.
+  </div>
+  After that, it is time to install the new version...<br>
+  <small><small><br></small></small>
+  If you have TC version 6.50 or newer, please use automatic installation feature (hit enter on excellence.zip). <br>
+  <a href="javascript: toggleDiv('inst')">Installation on older versions &gt;&gt;</a>
+  <div style="display: block; padding-left:40px;" id="inst">
+    If you have TC from version 5.51 to 6.03a, open <span class="s i">Configuration</span>
+    menu, choose <span class="s i">Options</span> and open the <span class="s i">Edit/View</span> 
+    page. Click on <span class="s i">Configure internal viewer</span>, 
+    then on <span class="s i">LS-Plugins</span> and then on <span class="s i">Add</span>. 
+    Find the <span class="s">excellence.wlx</span> file and add it to the list. 
+    Close all dialogs.
+    <br>
+    If you have TC 5.50 then add these two lines to the <span class="s i">[ListerPlugins]</span> 
+    section of the <span class="s i">wincmd.ini</span> file: <br>
+    <span class="g">
+      123=somepath\excellence.wlx<br>
+      123_detect=&quot;&quot;  
+    </span><br>
+    then replace the number (123) with next available number and set path to plugin location.
+  </div>
+  <script type="text/javascript">
+    <!--
+    document.getElementById('inst').style.display = 'none';
+    document.getElementById('remv').style.display = 'none';
+    document.write(" \n");
+    //-->
+  </script>
+</p>
+
+
+<p> 
+  <span class="h">disclaimer</span>
+  <br>
+  I do not promise this plugin will properly read any type of data from any
+  spreadsheet. In fact, I'm pretty sure it won't. If you encounter an error 
+  (plugin displays incorrect data, ignores a file or crashes) please send me
+  an e-mail describing symptoms and I will try to fix that. If the document is
+  reasonably small, please include it as well. 
+  <br>
+  All names mentioned in this document are property of their respective owners.
+</p>
+
+
+<p> 
+  <span class="h">keyboard shortcuts</span>
+  <br>
+  <table border="0">
+    <tr> 
+      <td>Ctrl+C</td>
+      <td>copy cell or range of cells to clipboard</td>
+    </tr>
+    <tr> 
+      <td>Ctrl+A</td>
+      <td>select entire grid; unused areas will not be copied</td>
+    </tr>
+    <tr> 
+      <td>W</td>
+      <td>increase column width to fit the text</td>
+    </tr>
+    <tr> 
+      <td>F</td>
+      <td>choose font</td>
+    </tr>
+    <tr> 
+      <td>Ctrl+Tab or Tab</td>
+      <td>display next sheet</td>
+    </tr>
+    <tr> 
+      <td>Ctrl+Shift+Tab</td>
+      <td>display previous sheet</td>
+    </tr>
+    <tr> 
+      <td>Ctrl+F</td>
+      <td>search for text</td>
+    </tr>
+    <tr> 
+      <td>F3</td>
+      <td>find next occurrence</td>
+    </tr>
+  </table>
+  Default keys for cursor movement and selection are also supported, as well as 
+  Lister's default keys ( N, P, 1-9 and Esc ). You can double-click a column header 
+  to resize that column. When in Quick View panel, use ] and [ &nbsp; (square brackets)
+  to cycle through sheets as Tab key will not be available. 
+</p>
+
+
+<p> 
+  <span class="h">non-english characters</span>
+  <br>
+  In order to properly display unicode characters (cyrillic, extended latin and 
+  other), unicode font must be selected. If the plugin does
+  not detect one itself, use an option from the popup menu to choose it. For documents
+  saved with older versions of excel, you should choose a non-unicode font and a code
+  page in which the document was created. 
+</p>
+
+
+<p> 
+  <span class="h">text search</span>
+  <br>
+  Search function is present, and it now works as you would expect it to work. To 
+  search for non-english text in tc older then version 7, the plugin needs to display
+  its own dialog box. To invoke that, you must enter --- (three dashes) into Lister's
+  standard search dialog. Search options should be chosen in the second dialog. 
+  <br>
+  Aside from Edit menu, search can be started with Ctrl+F or F7 (Find) and F3 or 
+  F5 (Find next). Use these to start a search in Quick View panel.
+</p>
+
+
+<p>
+<span class="h">faq</span>
+<br>
+<table border="0">
+  <tr> 
+    <td>Q:</td>
+    <td>The plugin doesn't display far-eastern text properly. 
+      What do I do?</td>
+  </tr>
+  <tr> 
+    <td>A:</td>
+    <td>Try changing the font (hit F key). If
+      that doesn't help, sorry. Please e-mail me and it might work in the next version.
+      Be sure to include the document, the font it was made with and screenshot of the
+      document opened with default application.</td>
+  </tr>
+  <tr> 
+    <td>Q:</td>
+    <td>What if a cell contents is calculated by a macro?</td>
+  </tr>
+  <tr> 
+    <td>A:</td>
+    <td>It will not be read or executed. Macro sheets in Excel
+      documents will not be read at all, even if they contain normal data.</td>
+  </tr>
+  <tr> 
+    <td>Q:</td>
+    <td>What if a document contains a macro virus?</td>
+  </tr>
+  <tr> 
+    <td>A:</td>
+    <td>Then use this lovely plugin to safely read 
+      the file and copy its data to clipboard. After that, erase the file.</td>
+  </tr>  <!--
+  <tr> 
+    <td>Q:</td>
+    <td>When I load a csv file, everything is crammed into first column. Why?</td>
+  </tr>
+  <tr> 
+    <td>A:</td>
+    <td>Cells in csv files are supposed to be separated by commas. However, Microsoft Excel puts semicolons between cells. That is why the plugin has two modes - it primarily expects semicolons and will display files according to that. If the file is comma-separated (as it should be), you'll see everything in first column. Hit '4' on your keyboard to switch between two modes.</td>
+  </tr>     -->
+</table>
+
+
+<p>
+  <span class="h">credits</span> 
+  <br>
+  This plugin uses 
+    <!--<span class="s">TNT unicode controls</span> made by Troy Wolbrink (<a href="http://home.ccci.org/wolbrink/index.htm">homepage link</a>), --> 
+    <span class="s">SciZipFile</span> unit by Patrik Spanel and 
+    <span class="s">SimpleXML</span> unit created by Michael Vlasov.
+  <br>
+  I would like to thank everyone who provided translations for the plugin or sent suggestions and feedback.
+</p>
+
+
+<p>
+  <span class="h">the end</span>
+  <br>
+  To get the latest version of this plugin, visit <a href="http://sites.google.com/site/ivansdump/">http://sites.google.com/site/ivansdump/</a>.
+  <br>
+  Feel free to send any comments, suggestions or complaints to <a href="mailto:ivan5rovic@gmail.com">ivan5rovic@gmail.com</a>. Bug reports are most welcome.
+</p>
+
+
+<p>
+  &nbsp;
+</p>
+
+
+<p>
+  <span class="h" style="position:absolute;  right:40px">Ivan Petrovic</span>
+</p>
+
+
+<p>
+  &nbsp;
+</p>
+
+
+</body>
+</html>

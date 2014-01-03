@@ -1,0 +1,31 @@
+*****************************************************************
+***                Explorer AkelPad plugin v5.4               ***
+*****************************************************************
+
+2012 Shengalts Aleksander aka Instructor (Shengalts@mail.ru)
+
+
+*** Description ***
+
+Displays explorer panel (based on Selom Ofori's code).
+
+
+*** Functions ***
+
+Explorer::Main
+Main function for start and stop plugin.
+
+
+*** External call ***
+
+Call("Explorer::Main", 1, "PATH")
+  Parameters:
+    1
+      Open dialog and go to specified path.
+    "PATH"
+      Path, for example: "C:\Program Files". If "", then go to current file.
+
+Call("Explorer::Main", 2)
+  Parameters:
+    2
+      Refresh file list.

@@ -1,0 +1,87 @@
+
+RemoveDrive V2.1.2.1 - prepares removable drives for safe removal
+Freeware by Uwe Sieber - www.uwe-sieber.de
+
+Win32 version works on Windows 2000, XP and higher including x64 version of Windows.
+x64 version works on x64 versions Windows only.
+
+
+
+Usage:
+RemoveDrive DriveSpec: [-l][-h][-w:nnnn]
+
+DriveSpec: is the drive to remove, e.g. U: or \ for the current drive
+[-L]      loop until success
+[-h]      show open handles (admin rights required, exprimental)
+[-w:nnnn] wait nnnn milliseconds before close
+[-s]      self delete removedrive.exe
+[-b]      let Windows show the "Safe To Remove Hardware" balloon tip
+[-e]      try dismount and eject if the safe removal fails
+[-i]      stop Windows indexing service (CiSvc) for a moment if required (admins)
+[-d]      show debug information
+
+
+or
+
+RemoveDrive "DeviceName" [-L]
+
+DeviceName is the name of the device e.g. "Corsair Flash Voyager USB Device"
+or short "Corsair Flash Voyager" as shown in the 'safe removal' dialog.
+Since V1.8 you can use wildcards in the DeviceName.
+
+Only one drive is prepared for safe removal.
+
+
+No admin rights required :-)
+
+
+Sample:
+
+removedrive U: -L -H -W:1000
+
+
+
+Returns Errorlevels:
+
+0 - successfully removed a device
+1 - device identified but not removed
+2 - device not found or parameters are invalid
+
+4 - RemoveDrive.exe located on the drive to remove -> temporary copy 
+    created and executed
+
+If the removal fails then someone still accesses the drive. This can be
+something banal like an open Word document, a mounted TrueCrypt container
+or some kind of monitoring tool like a virus scanner.
+
+By means of SysInternals ProcessExplorer you may discover which program
+holds an open handle to the drive.
+http://www.microsoft.com/technet/sysinternals/utilities/ProcessExplorer.html
+
+After starting it go to 'Find' -> 'Find Handle or DLL', enter a part of the
+volume's or the drive's DOS device name (as volume12 or disk5) and search.
+Searching for the drive's drive letter may give a hit too.
+
+
+If started with admin previleges then an removed USB drive can be reactivated
+by means of RestartSrDev:
+http://www.uwe-sieber.de/drivetools_e.html#restart
+
+
+
+Licence
+
+
+RemoveDrive is Freeware.
+
+Allowed:
+- usage in any environment, including commercial
+- include in software products, including commercial
+- include on CD/DVD of computer magazines
+
+Not allowed:
+- changing any of the files
+
+
+
+

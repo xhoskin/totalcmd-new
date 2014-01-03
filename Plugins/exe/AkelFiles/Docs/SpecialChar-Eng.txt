@@ -1,0 +1,61 @@
+*****************************************************************
+***              SpecialChar AkelPad plugin v4.7              ***
+*****************************************************************
+
+2012 Shengalts Aleksander aka Instructor (Shengalts@mail.ru)
+
+
+*** Description ***
+
+Shows and highlights special characters (space, tabulation,
+new line, wrap, vertical tabulation, form-feed, null character).
+
+Remarks:
+- If in settings tabulation character is ommited, then tabulation is painted as
+  arrow at full length.
+- If in settings new line character is ommited, then new line is painted as:
+  "rn" or "rrn" - Win, "n" - Unix, "r" - Mac.
+- If in settings wrap line character is ommited, then wrap line is painted as
+  down arrow.
+
+
+*** Functions ***
+
+SpecialChar::Main
+Main function for start and stop plugin.
+
+SpecialChar::Settings
+Settings dialog.
+
+
+*** External call SpecialChar::Settings ***
+
+Call("SpecialChar::Settings", 1, "SYMBOLS", "#RRGGBB", "#RRGGBB", TEXTCOLORENABLE, BKCOLORENABLE, "CHARACTER")
+  Parameters:
+    1
+      Set options for specified symbols.
+    "SYMBOLS"
+      Symbols set separated by commas, for example: "1,2,3".
+        1  Space
+        2  Tabulation
+        3  New line
+        4  Vertical tabulation
+        5  Form-feed
+        6  Null
+        7  Wrap
+    "#RRGGBB"
+      Text color, ignored if "0".
+    "#RRGGBB"
+      Background color, ignored if "0".
+    TEXTCOLORENABLE (one of the following):
+      -2  don't change text color enable flag (default).
+      -1  invert text color enable flag.
+       0  turn off text color.
+       1  turn on text color.
+    BKCOLORENABLE (one of the following):
+      -2  don't change background color enable flag (default).
+      -1  invert background color enable flag.
+       0  turn off background color.
+       1  turn on background color.
+    "CHARACTER"
+      Painted symbol. Is not changed, if not specified.

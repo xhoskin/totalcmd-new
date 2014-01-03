@@ -1,0 +1,65 @@
+
+IMaGinator v2.0 Copyright (c)2003-2010 Andreas Ziemer
+=====================================================
+eMail: info@a-z-e.de
+
+Plugin for TotalCommander 5.51 and above
+----------------------------------------
+TotalCommander is (c) Christian Ghisler, C.Ghisler & Co., Switzerland
+Obtain the latest version at http://www.ghisler.com
+
+Check http://totalcommander.a-z-e.de for the latest versions of the plugin.
+
+This plugin gives Total Commander access to raw disk images
+
+Key functions are:
+
+ - handle long filenames
+ - create disk images (1.2MB 1.44MB 2.88MB)
+ - create harddisk images (2..32MB) with or without master boot record
+ - copy files from and to IMG
+ - create/delete files/directories within IMG
+ - make image bootable (bootable, when copied back to a physical disk).
+   Requires a bootblock file. You can rip the bootblock off of a formatted
+   disk (that is bootable) via the control panel function "read image"
+   from A: or B: to an image file, and then use this. Alternatively you can
+   use a bootblock contained in an arbitrary file (*.BIN).
+ - Create a master boot record (MBR) with a single partition containing
+   the files you copy into the image. This option is only available with HD
+   images. You can download a generic MBR file from www.freedos.org (also
+   included in the ZIP file) - or use the same procedure as mentioned above
+   for the bootblock by extracting it from a HDD image.
+
+New in version 2.0
+
+ - read/write images from/to physical disks (floppy images only for now)
+   via function in control panel.
+ - image file names default to *.IMA now instead of *.IMG.
+
+Automatic Installation:
+-----------------------
+Clicking on the distributed ZIP file from within TC will ask for
+installation.
+
+Manual Installation:
+--------------------
+a) copy IMG.WCX to your TotalCommander folder
+b) on the TotalCommander menubar click Configuration->Options
+c) select the Packer tab and click on "Configure packer extension DLLs"
+d) enter IMA as extension
+e) click "New type" and associate with IMG.WCX
+f) click OK
+
+This software is copyrighted free software! If you like to donate anyway,
+and I'd be pleased to give you my bankaccount ;-)
+
+Mail me about bugs or your opinions.
+
+Legal disclaimer:
+-----------------
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR ANY PARTICULAR PURPOSE.
+
+
+*************************************************************************

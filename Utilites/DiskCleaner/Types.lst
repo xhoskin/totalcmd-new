@@ -1,0 +1,301 @@
+[*.diz]
+Summary=Временные файлы
+LSummary=Файл, созданный при обновлении.
+ShortTranName=TempFile
+LongTranName=fcwdir
+Level=1
+Checked=0
+[*.tmp]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.temp]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.chk]
+Summary=Восстановленный файл
+LSummary=Файлы, созданные во время сканирования диска
+ShortTranName=chkfile
+LongTranName=sdrf
+Level=0
+Checked=1
+[*.old]
+Summary=Старый файл
+LSummary=Устарелый файл.
+ShortTranName=OldFile
+LongTranName=outdatedfile
+Level=1
+Checked=0
+[*.gid]
+Summary=Временные файлы
+LSummary=Файл, созданный при запуске файла справки.
+ShortTranName=TempFile
+LongTranName=fcwhfir
+Level=0
+Checked=1
+[*.nch]
+Summary=Временные файлы
+LSummary=Файлы кэша новостей
+ShortTranName=TempFile
+LongTranName=Ncfile
+Level=1
+Checked=1
+[*.wbk]
+Summary=Резервное копирование файлов
+LSummary=Файл копии MS Word.
+ShortTranName=Backupfile
+LongTranName=WBfile
+Level=1
+Checked=1
+[*.fts]
+Summary=Временные файлы
+LSummary=Файлы, созданные во время поиска справки
+ShortTranName=TempFile
+LongTranName=Cbswahf
+Level=0
+Checked=1
+[*.ftg]
+Summary=Временные файлы
+LSummary=Временные файлы справочной системы
+ShortTranName=TempFile
+LongTranName=whtf
+Level=0
+Checked=1
+[*.$$$]
+Summary=Старый файл
+LSummary=Устарелый файл.
+ShortTranName=OldFile
+LongTranName=outdatedfile
+Level=0
+Checked=1
+[*log.txt]
+Summary=Файлы журналов
+LSummary=Файл журнала, приложений или системных служб.
+ShortTranName=Logfile
+LongTranName=LLogfile
+Level=1
+Checked=0
+[*.err]
+Summary=Файл ошибки
+LSummary=Файл ошибки
+ShortTranName=Errorfile
+LongTranName=Errorfile
+Level=0
+Checked=1
+[*.---]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.~*]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[~*.*]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.??$]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.___]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.log]
+Summary=Файлы журналов
+LSummary=Файл журнала, приложений или системных служб.
+ShortTranName=Logfile
+LongTranName=LLogfile
+Level=1
+Checked=0
+[*.~mp]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*._mp]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.dmp]
+Summary=Временные файлы
+LSummary=
+ShortTranName=TempFile
+LongTranName=Windows memory dump file.
+Level=0
+Checked=1
+[*.prv]
+Summary=Старый файл
+LSummary=Устарелый файл.
+ShortTranName=OldFile
+LongTranName=outdatedfile
+Level=0
+Checked=1
+[*.sik]
+Summary=Резервное копирование файлов
+LSummary=Резервное копирование файлов
+ShortTranName=Backupfile
+LongTranName=Backupfile
+Level=1
+Checked=0
+[*.bak]
+Summary=Резервное копирование файлов
+LSummary=резервные копии файлов.
+ShortTranName=Backupfile
+LongTranName=bcomf
+Level=1
+Checked=0
+[thumbs.db]
+Summary=Индексный файл
+LSummary=индексный файл изображения.
+ShortTranName=Indexfile
+LongTranName=ifcbsiotitpbs
+Level=0
+Checked=1
+[CHKLIST.MS]
+Summary=Временные файлы
+LSummary=Временный файл запуска.
+ShortTranName=TempFile
+LongTranName=Tfcds
+Level=0
+Checked=1
+[*.ilk]
+Summary=Промежуточный файл
+LSummary=Промежуточный файл
+ShortTranName=Intermediatefile
+LongTranName=Intermediatefile
+Level=1
+Checked=1
+[*.aps]
+Summary=Промежуточный файл
+LSummary=Промежуточный файл
+ShortTranName=Intermediatefile
+LongTranName=Intermediatefile
+Level=1
+Checked=1
+[*.ncb]
+Summary=Промежуточный файл
+LSummary=Промежуточный файл
+ShortTranName=Intermediatefile
+LongTranName=Intermediatefile
+Level=1
+Checked=1
+[*.pch]
+Summary=Промежуточный файл
+LSummary=Промежуточный файл
+ShortTranName=Intermediatefile
+LongTranName=Intermediatefile
+Level=1
+Checked=1
+[*.$db]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=1
+Checked=1
+[*.?$?]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.??~]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.?~?]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=0
+Checked=1
+[*.db$]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=1
+Checked=1
+[*.^]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=1
+Checked=1
+[*._dd]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=1
+Checked=1
+[*._detmp]
+Summary=Временные файлы
+LSummary=Временный файл программы.
+ShortTranName=TempFile
+LongTranName=tfcbp
+Level=1
+Checked=1
+[chklist.*]
+Summary=Временные файлы
+LSummary=Временный файл запуска.
+ShortTranName=TempFile
+LongTranName=Tfcds
+Level=0
+Checked=1
+[mscreate.dir]
+Summary=Временные файлы
+LSummary=Временный файл запуска.
+ShortTranName=TempFile
+LongTranName=Tfcds
+Level=0
+Checked=1
+[log*.txt]
+Summary=Файлы журналов
+LSummary=Файл журнала, приложений или системных служб.
+ShortTranName=Logfile
+LongTranName=LLogfile
+Level=1
+Checked=0
+[*.log?]
+Summary=Файлы журналов
+LSummary=Файл журнала, приложений или системных служб.
+ShortTranName=Logfile
+LongTranName=LLogfile
+Level=1
+Checked=0

@@ -1,0 +1,144 @@
+[em_sysfolder_doc]
+cmd=cd %USERPROFILE%\Documents
+[em_sysfolder_video]
+cmd=cd %USERPROFILE%\Videos
+[em_sysfolder_music]
+cmd=cd %USERPROFILE%\Music
+[em_sysfolder_img]
+cmd=cd %USERPROFILE%\Pictures
+[em_sysfolder_net]
+cmd=ncpa.cpl
+[em_sysfolder_control]
+cmd=control.exe
+[em_sysfolder_progdel]
+cmd=appwiz.cpl
+[em_sysfolder_pf]
+cmd=cd C:\Program Files
+[em_sysfolder_pf86]
+cmd=cd %PROGRAMFILES%
+[em_sysfolder_win]
+cmd=cd %WINDIR%
+[em_sysfolder_sys32]
+cmd=cd %WINDIR%\System32
+[em_sysfolder_sys64]
+cmd=cd %WINDIR%\SysWOW64
+[em_sysfolder_inst]
+cmd=cd %WINDIR%\Installer
+[em_sysfolder_inf]
+cmd=cd %WINDIR%\Inf
+[em_sysfolder_wintemp]
+cmd=cd %WINDIR%\Temp
+[em_sysfolder_upd]
+cmd=cd %WINDIR%\SoftwareDistribution\Download
+[em_sysfolder_fonts]
+cmd=cd %WINDIR%\Fonts
+[em_sysfolder_wallpapers]
+cmd=cd %WINDIR%\Web\Wallpaper
+[em_sysfolder_sounds]
+cmd=cd %WINDIR%\Media
+[em_sysfolder_curs]
+cmd=cd %WINDIR%\Cursors
+[em_sysfolder_themes]
+cmd=cd %WINDIR%\Resources
+[em_sysfolder_user]
+cmd=cd %USERPROFILE%
+[em_sysfolder_prog]
+cmd=cd %$PROGRAMS%
+[em_sysfolder_startup]
+cmd=cd %$STARTUP%
+[em_sysfolder_qlaunch]
+cmd=cd %$APPDATA%\Microsoft\Internet Explorer\Quick Launch
+[em_sysfolder_pintask]
+cmd=cd %$APPDATA%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
+[em_sysfolder_pinstart]
+cmd=cd %$APPDATA%\Microsoft\Internet Explorer\Quick Launch\User Pinned\StartMenu
+[em_sysfolder_appdata]
+cmd=cd %$APPDATA%
+[em_sysfolder_locappdata]
+cmd=cd %$LOCAL_APPDATA%
+[em_sysfolder_alldoc]
+cmd=cd %$COMMON_DOCUMENTS%
+[em_sysfolder_alldesk]
+cmd=cd %$COMMON_DESKTOPDIRECTORY%
+[em_sysfolder_allstart]
+cmd=cd %$COMMON_STARTMENU%
+[em_sysfolder_allprog]
+cmd=cd %$COMMON_PROGRAMS%
+[em_sysfolder_allstartup]
+cmd=cd %$COMMON_STARTUP%
+[em_sysfolder_allappdata]
+cmd=cd %$COMMON_APPDATA%
+[em_sysfolder_downloads]
+cmd=cd %USERPROFILE%\Downloads
+[em_sysfolder_recent]
+cmd=cd %USERPROFILE%\Recent
+[em_sysfolder_temp]
+cmd=cd %TEMP%
+[em_run]
+cmd=%COMMANDER_PATH%\Totalcmd.exe
+[em_restart]
+cmd=""%COMMANDER_PATH%\Utils\Impomezia\restarttc.exe" 0 "%COMMANDER_PATH%\Totalcmd.exe""
+[em_snapreg]
+cmd=regedit.exe /e reg.reg
+[em_deltemp]
+cmd=cmd /c title Delete temporary files &cd/d %temp%&rd/s/q %temp% 2>nul &cd/d %tmp%&rd/s/q %tmp% 2>nul &cd/d C:\Windows\Prefetch &del *.pf 2>nul &cd/d C:\Windows\Temp&rd/s/q c:\windows\temp 2>nul
+[em_listname]
+cmd=notepad.exe
+param=%F
+[em_listfull]
+cmd=notepad.exe
+param=%L
+[em_tcfolder]
+cmd=cd %COMMANDER_PATH%
+[em_wcxfolder]
+cmd=cd %COMMANDER_PATH%\Plugins\wcx
+[em_wfxfolder]
+cmd=cd %COMMANDER_PATH%\Plugins\wfx
+[em_wlxfolder]
+cmd=cd %COMMANDER_PATH%\Plugins\wlx
+[em_wdxfolder]
+cmd=cd %COMMANDER_PATH%\Plugins\wdx
+[em_run_akelpad]
+cmd=%COMMANDER_PATH%\Utils\AkelPad\AkelPad.exe
+[em_site_akelpad]
+cmd=http://akelpad.sourceforge.net
+[em_run_colors]
+cmd=%COMMANDER_PATH%\Utils\Impomezia\colors.exe
+[em_site_colors]
+cmd=http://impomezia.ru/projects/colors
+[em_run_imagine]
+cmd=%COMMANDER_PATH%\Plugins\wlx\Imagine\Imagine.exe
+[em_site_imagine]
+cmd=http://www.nyam.pe.kr
+[em_run_stdu]
+cmd=%COMMANDER_PATH%\Utils\STDU Viewer\STDUViewerApp.exe
+[em_site_stdu]
+cmd=http://www.stdutility.com
+[em_run_startup]
+cmd=COMMANDER_PATH%\Utils\WhatInStartup\WhatInStartup.exe
+[em_site_startup]
+cmd=http://www.nirsoft.net/utils/what_run_in_startup.html
+[em_run_tweaktc]
+cmd=%COMMANDER_PATH%\Utils\TweakTC\TweakTC.exe
+param=/i=%%COMMANDER_PATH%%\Wincmd.ini /F=%%COMMANDER_PATH%%\Wcx_ftp.ini
+[em_readme]
+cmd=%COMMANDER_PATH%\Help\Readme.txt
+[em_cmd]
+cmd=%COMMANDER_PATH%\Help\Встроенные команды.htm
+[em_keyru]
+cmd=%COMMANDER_PATH%\Help\Клавиатурные сочетания.txt
+[em_keyen]
+cmd=%COMMANDER_PATH%\Help\Keyboard.txt
+[em_advices]
+cmd=%COMMANDER_PATH%\Help\Советы.txt
+[em_lnk_wincmdru]
+cmd=http://wincmd.ru
+[em_lnk_wincmden]
+cmd=http://www.totalcmd.net
+[em_lnk_vadimsva]
+cmd=http://vadimsva.ucoz.org
+[em_lnk_iconspack]
+cmd=http://vadimsva.ucoz.org/TC_IconsPack_v5.zip
+[em_lnk_tc]
+cmd=%COMMANDER_PATH%\updater.exe
+path=%COMMANDER_PATH%

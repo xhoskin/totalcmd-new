@@ -1,0 +1,24 @@
+[Rus]
+Channels=Каналы
+Duration=Длительность
+Duration (H/M/S)=Длительность (Ч/М/С)
+Sample rate=Частота
+Bitrate=Битрейт
+Bitrate type=Тип битрейта
+Title=Название
+Artist=Исполнитель
+Album=Альбом
+Track=Дорожка
+Track (zero-filled)=Дорожка (начинать с 0)
+Date=Год
+Genre=Жанр
+Comment=Комментарий
+Composer=Композитор
+Copyright=Авторство
+URL=Ссылка
+Encoder=Кодировщик
+Tags=Тэги
+Full text=Весь текст
+Unknown|Mono|Stereo|Joint Stereo|Dual Channel=Неизвестно|Моно|Стерео|Присоед. стерео|Два канала
+Hz|KHz=Гц|КГц
+CBR|VBR|Unknown=CBR|VBR|Неизвестно

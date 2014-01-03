@@ -1,0 +1,5 @@
+﻿;!@Install@!UTF-8!
+ExtractTitle="- Распаковка программы..."
+RunProgram="Setup.exe"
+GUIMode="1"
+;!@InstallEnd@!

@@ -1,0 +1,31 @@
+*****************************************************************
+***                Sessions AkelPad plugin v6.6               ***
+*****************************************************************
+
+2012 Shengalts Aleksander aka Instructor (Shengalts@mail.ru)
+
+
+*** Description ***
+
+Saves and restores program MDI session.
+
+
+*** Functions ***
+
+Sessions::Main
+Main function.
+
+
+*** External call ***
+
+Call("Sessions::Main", 1, "FILE")
+  Parameters:
+    1
+      Open session.
+    "FILE"
+      Session name (without extension).
+
+Call("Sessions::Main", 10)
+  Parameters:
+    10
+      Start/stop plugin without dialog.

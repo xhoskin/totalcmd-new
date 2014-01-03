@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Total Commander Plugin HLP/MVB ReadMe</title>
+  
+  <style type="text/css">
+    body {
+      background-color: #eeffff;
+      font-family: serif;
+      font-size: 12pt;
+    }
+    h1 {
+      font-size: 18pt;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 16pt;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    h3 {
+      font-size: 12pt;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    p {
+      text-align: justify;
+    }
+    td {
+      vertical-align: top;
+    }
+    td.ini-key {
+      padding-top: 2pt;
+      font-family: monospace;
+      font-size: 10pt;
+      color: #000080;
+    }
+    code {
+      font-family: monospace;
+      font-size: 10pt;
+      color: #000080;
+    }
+    .nobr {
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>HLP/MVB Plugin for Total Commander</h1>
+<p>
+<b>Version 1.0.2.0</b>
+</p>
+<p>
+Packer plugin that allows to unpack help files in HLP and MVB formats.
+</p>
+
+<table border="0" cellpadding="0" cellspacing="2">
+  <tr><td><b>Author:</b></td><td style="width: 0.3em;"></td><td>Konstantin Vlasov, 2011</td></tr>
+  <tr><td><b>Homepage:</b></td><td style="width: 0.3em;"></td><td><a href="http://flint-inc.ru/eng/info/hlp.html" target="_blank">http://flint-inc.ru/</a></td></tr>
+  <tr><td><b>E-mail:</b></td><td style="width: 0.3em;"></td><td><a href="mailto:support@flint_inc.ru?Subject=HLP%20Plugin">support@flint_inc.ru</a></td></tr>
+</table>
+
+<p>
+Distributed under <a href="Artistic%20License%202.0.html">Artistic License 2.0</a>.
+</p>
+
+<p>
+The plugin is based on the source code of the HelpDeco tool by Manfred Winterhoff, distributed as Freeware.<br />
+The tool's homepage is unavailable; development continued at <a href="http://sourceforge.net/projects/helpdeco/" target="_blank">SourceForge.net</a> under the GPLv2 license.
+</p>
+
+<p>
+<b>System requirements for 32-bit version:</b><br />
+Processor with SSE2 (Intel Pentium 4, AMD Athlon 64 and higher)<br />
+Windows 2000 and higher<br />
+Total Commander 7.50&ndash;8.0 x32
+</p>
+
+<p>
+<b>System requirements for 64-bit version:</b><br />
+Processor with 64-bit instrustion set (Intel Pentium 4, AMD Athlon 64 and higher)<br />
+Windows XP x64 and higher<br />
+Total Commander 8.0 x64
+</p>
+
+
+<a name="installation"></a><h2>Installation</h2>
+<p>
+For installing the plugin just enter its archive in Total Commander and agree to install it. If automatic installation is turned off in your TC, see instructions in the Total Commander help file.
+</p>
+<p>
+After the installation you will be able to open HLP and MVB files as archives by <code>Ctrl+PageDown</code> hotkey, or unpack them by <code>Alt+F9</code> hotkey. Packing into archive (i.&nbsp;e. help file compilation) is not supported.
+</p>
+
+
+<a name="history"></a><h2>Version history</h2>
+
+<h3>Version 1.0.2.0 (18.09.2011):</h3>
+<ol type="1">
+  <li>Added 64-bit version for TC 8.0 x64.</li>
+  <li>Fixed: plugin could crash when processing specific HLP files.</li>
+  <li>Fixed: article titles sometimes were extracted incorrectly.</li>
+</ol>
+
+<h3>Version 1.0.1.0 (30.01.2011):</h3>
+<ol type="1">
+  <li>Fixed: unpacking WMF images was broken.</li>
+  <li>Added separate no-SSE version for old processor owners.</li>
+</ol>
+
+<h3>Version 1.0.0.0 (16.10.2010):</h3>
+<ol type="1">
+  <li>First public release.</li>
+</ol>
+
+</body>
+</html>

@@ -1,0 +1,404 @@
+﻿;!@Lang2@!UTF-8!
+;  4.53 :  Iñigo Salvador Azurmendi
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+0
+7-Zip
+Basque
+Euskara
+401
+Ados
+Uzi
+
+
+
+&Bai
+&Ez
+&Itxi
+Laguntza
+
+&Jarraitu
+440
+&Guztiari Bai
+G&uztiari Ez
+Gelditu
+Berrasi
+&Atzealdean
+&Aurrealdean
+&Eten
+Etenda
+Ziur zaude galarazi nahi duzula?
+500
+&Fitxategia
+&Editatu
+&Ikusi
+&Gogokoak
+&Tresnak
+&Laguntza
+540
+&Ireki
+Ireki &Barruan
+Ireki &Kanpoaldean
+&Ikusi
+&Editatu
+&Berrizendatu
+&Kopiatu Hona...
+&Mugitu Hona...
+&Ezabatu
+Fitxategia &zatitu...
+Fitxategiak E&lkartu...
+&Propietateak
+&Azalpena
+Kontroleko batura kalkulatu
+
+Karpeta Sortu
+Fitxategia Sortu
+&Irten
+600
+&Guztia Aukeratu
+Guztia Ezaukeratu
+Aukeraketa &Alderantzikatu
+Aukeratu...
+Ezaukeratu...
+Aukeratu Motaren arabera
+Ezaukeratu Motaren arabera
+700
+Ikono &Haundiak
+Ikono &Txikiak
+&Zerrenda
+&Xehetasunak
+730
+Antolatugabe
+Ikuspegi laua
+&2 Panel
+&Tresnabarrak
+Ireki Erroko Karpeta
+Maila Bat Gora
+Karpeten Historia...
+&Freskatu
+750
+Fitxategi Tresnabarra
+Tresnabarra Estandarra
+Botoi Haundiak
+Erakutsi Testua Botoietan
+800
+&Erantsi karpeta Gogokoetara honela
+Liburumarka
+900
+&Aukerak...
+&Erreferentzi puntua (Benchmark)
+960
+&Edukia...
+&7-Zip-eri Buruz...
+1003
+Bidea
+Izena
+Luzapena
+Karpeta
+Neurria
+Neurria konprimatuta
+Ezaugarriak
+Sortu
+Atzitua
+Aldatu
+Trinko
+Azalpena
+Zifratuta
+Banatu Lehenago
+Banatu Ondoren
+Hiztegia
+CRC
+Mota
+Anti
+Metodoa
+Ostalariaren SE
+Fitxategi Sistema
+Erabiltzailea
+Taldea
+Blokeatu
+Aipamena
+Kokapena
+Bide Aurrizkia
+Karpetak
+Fitxategiak
+Bertsioa
+Bolumena
+Bolumen anizkoitza
+Kokapen zuzenketa
+Estekak
+Blokeak
+Bolumenak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Akatsa
+Neurri Osoa
+Leku Askea
+Cluster Neurria
+Etiketa
+Bertako Izena
+Hornitzailea
+2100
+Aukerak
+Hizkuntza
+Hizkuntza:
+Editorea
+&Editorea:
+
+2200
+Sistema
+Elkartu 7-Zip hauekin:
+2301
+Bateratu 7-Zip maskorraren testuinguru menura
+Testuinguru menua turrustan
+Testuinguru menuaren zerrenda:
+2320
+<Karpeta>
+<Artxibua>
+Artxibua ireki
+Fitxategiak atera...
+Artxibura erantsi...
+Artxibua egiaztatu
+Atera hona
+Atera {0}-(e)ra
+Erantsi {0}-(e)ra
+Konprimatu eta post@z bidali...
+Konprimatu {0}-(e)ra eta post@z bidali
+2400
+Karpetak
+Laneko &Karpetak
+&Sistemaren aldiuneko karpeta
+&Unekoa
+&Zehaztutakoa:
+Erabili unitate eramangarriekin soilik
+Zehaztu kokaleku bat aldiuneko artxibu fitxategientzako.
+2500
+Ezarpenak
+Erakutsi ".." gaia
+Erakutsi benetako fitxategi ikonoak
+Erakutsi sistemaren menua
+&Lerro oso aukeraketa
+Erakutsi &saretaren lerroak
+
+&Ordezko aukeraketa modua
+Memoria orrialde &luzeak erabili
+2900
+7-Zip-eri buruz
+7-Zip software askea da. Hala ere, erregistratuz, 7-Zip garatzen lagundu dezakezu.
+3000
+
+Ez dago akatsik
+{0} objektu aukeratuta
+Ezin da '{0}' artxibua sortu
+Eguneraketa eragiketak ez dira onartzen artxibu honekin.
+Ezin da '{0}' fitxategia artxibu bezala ireki
+Ezin da da '{0}' zifratutako artxibua ireki. Pasahitz okerra?
+
+
+'{0}' fitxategia aldatu egin da.\nArtxibuan eguneratu nahi duzu?
+Ezin da fitxategia eguneratu\n'{0}'
+Ezin da editorea abiatu.
+
+
+
+
+Gai gehiegi
+3300
+Ateratzen
+Konprimatzen
+Egiaztatzen
+Irekitzen...
+Aztertzen...
+3400
+Atera
+Atera &Hona:
+Zehaztu fitxategiak ateratzeko lekua.
+3410
+Bide modua
+Bideizen osoak
+Bideizenik ez
+3420
+Gainidatzi modua
+Galdetu gainidatzi aurretik
+Gainidatzi abisatu gabe
+Jauzi existitzen diren fitxategiak
+Berez berrizendatu
+Berez berrizendatu existitzen diren fitxategiak
+3500
+Onetsi Fitxategi Ordezkapena
+Helburu karpetak prozesatutako fitxategia dauka dagoeneko.
+Existitzen den fitxategia ordezkatu nahi duzu
+beste honekin?
+{0} byte
+&Berez Berrizedatu
+3700
+'{0}'-rentzako onartugabeko konpresio metodoa .
+Datuen akatsa '{0}'-n. Fitxategia hondatuta dago.
+CRC akatsa '{0}'-n. Fitxategia hondatuta dago.
+Datuen akatsa zifratutako '{0}' fitxategian. Pasahitz okerra?
+CRC okerra zifratutako '{0}' fitxategian. Pasahitz okerra?
+3800
+Sartu pasahitza
+Sartu pasahitza:
+Pasahitza berriz sartu:
+&Erakutsi pasahitza
+Pasahitzak ez datoz bat
+Erabili soilik hizki ingelesak, zenbakiak eta karaktere bereziak (!, #, $, ...) pasahitzetan
+Pasahitza luzeegia da
+Pasahitza
+3900
+Irangandako denbora:
+Falta den denbora:
+Neurria:
+Abiadura:
+Prozesatuta:
+Trinkoketa ratioa:
+Akatsak:
+Artxibuak:
+4000
+Erantsi artxibura
+&Artxibua:
+&Eguneratzeko modua:
+Artxibu &formatua:
+Konpresio &maila:
+Konpresio &metodoa:
+&Hiztegi neurria:
+&Hitz neurria:
+Bloke solidoaren neurria:
+PUZ hari kopurua:
+&Parametroak:
+Aukerak
+Sortu SF&X artxibua
+Trinkotu partekatutako fitxategiak
+Zifraketa
+Zifraketa metodoa:
+Zifratu fitxategi &izenak
+Konpresiorako Memoria erabilera:
+Deskonpresiorako Memoria erabilera:
+4050
+Gorde
+Azkarrena
+Azkarra
+Arrunta
+Gehienezkoa
+Ultra
+4060
+Erantsi eta ordezkatu fitxategiak
+Eguneratu eta erantsi fitxategiak
+Berritu existitzen diren fitxategiak
+Fitxategiak sinkronizatu
+4070
+Arakatu
+Fitxategi Guztiak
+Ez-solidoa
+Solidoa
+6000
+Kopiatu
+Mugitu
+Kopiatu hona:
+Mugitu hona:
+Kopiatzen...
+Mugitzen...
+Berrizendatzen...
+Hautatu helburu karpeta.
+Eragiketa ez da onartzen.
+Akatsa Fitxategia edo Karpeta Berrizendatzerakoan
+Onetsi Fitxategi Kopiaketa
+Ziur zaude fitxategiak artxibura kopiatu nahi dituzula
+6100
+Onetsi Fitxategi Ezabaketa
+Onetsi Karpeta Ezabaketa
+Onetsi Fitxategi Anitzen Ezabaketa
+Ziur zaude '{0}' ezabatu nahi duzula?
+Ziur zaude '{0}' karpeta eta bere eduki guztia ezabatu nahi duzula?
+Ziur zaude {0} gai hauek ezabatu nahi dituzula?
+Ezabatzen...
+Akatsa Fitxategia edo Karpeta Ezabatzerakoan
+
+6300
+Karpeta Sortu
+Fitxategia Sortu
+Karpeta izena:
+Fitxategi Izena:
+Karpeta Berria
+Fitxategi Berria
+Akatsa Karpeta Sortzerakoan
+Akatsa Fitxategia Sortzerakoan
+6400
+Azalpena
+&Azalpena:
+Aukeratu
+Ezaukeratu
+Maskara:
+6600
+Propietateak
+Karpeten Historia
+Diagnosi mezuak
+Mezua
+7100
+Konputagailua
+Sarea
+
+Sistema
+7200
+Erantsi
+Atera
+Egiaztatu
+Kopiatu
+Mugitu
+Ezabatu
+Info
+7300
+Fitxategia Zatitu
+&Zatitu hona:
+Zatitu &bolumenetan, byte-ak:
+Zatitzen...
+Zatiketa berretsi
+Ziur zaude fitxategia {0} bolumenetan zatitau nahi duzula?
+Bolumen neurria jatorrizko fitxategiarena baino txikiago izan behar da
+Bolumen zati baliogabea
+Zehaztutako bolumen neurria: {0} byte.\nZiur zaude artxibua holako bolumenetan zatitu nahi duzula?
+7400
+Fitxategiak Elkartu
+&Elkartu honekin:
+Elkartzen...
+Hautau soilik lehenengo fitxategia
+
+
+7500
+Kontroleko batura kalkulatzen...
+Kontroleko baturaren gaineko informazioa
+Datuentzako CRC kontroleko batura:
+Datuak eta izenentzako CRC kontroleko batura:
+7600
+Erreferentzi puntua (Benchmark)
+Memoria erabilera:
+Konprimatzen
+Deskonprimatzen
+Balorazioa
+Balorazio Osoa
+Unekoa
+Emaitza
+PUZ erabilera
+Balioztatze / Erabilera
+Zuzenak:

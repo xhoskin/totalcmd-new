@@ -1,0 +1,76 @@
+*****************************************************************
+***               LineBoard AkelPad plugin v9.1               ***
+*****************************************************************
+
+2012 Shengalts Aleksander aka Instructor (Shengalts@mail.ru)
+
+
+*** Description ***
+
+1. Shows line numbers.
+2. Adds bookmarks support.
+
+Remarks:
+- If in settings no hotkey is assigned for bookmark delete, then
+  hotkey for bookmark set is working like "Set/Delete".
+
+
+*** Functions ***
+
+LineBoard::Main
+Main function for start and stop plugin.
+
+LineBoard::Settings
+Settings dialog.
+
+
+*** External call ***
+
+Call("LineBoard::Main", 1)
+  Parameters:
+    1
+      Wait for plugin initialized.
+
+Call("LineBoard::Main", 11, WINDOW, DOCUMENT, *RECT)
+  Parameters:
+    11
+      Get board rectangle.
+    WINDOW
+      Edit window handle.
+    DOCUMENT
+      Edit document handle.
+    *RECT
+      Pointer to a memory, that receives board rectangle.
+
+Call("LineBoard::Main", 12, WINDOW, DOCUMENT, *BOOKMARK, *BOOKMARKLENGTH)
+  Parameters:
+    12
+      Get string with bookmarks numbers.
+    WINDOW
+      Edit window handle.
+    DOCUMENT
+      Edit document handle.
+    *BOOKMARK
+      Pointer to a memory, that receives string with bookmarks numbers separated by commas. Can be NULL.
+    *BOOKMARKLENGTH
+      Characters count in BOOKMARK.
+
+Call("LineBoard::Main", 13, WINDOW, DOCUMENT, "BOOKMARK")
+  Parameters:
+    13
+      Set bookmarks.
+    WINDOW
+      Edit window handle.
+    DOCUMENT
+      Edit document handle.
+    "BOOKMARK"
+      String with bookmarks numbers separated by commas. For example: "10,14,20".
+
+Call("LineBoard::Main", 14, WINDOW, DOCUMENT)
+  Parameters:
+    14
+      Delete all bookmarks.
+    WINDOW
+      Edit window handle.
+    DOCUMENT
+      Edit document handle.
