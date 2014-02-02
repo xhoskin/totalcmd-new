@@ -1,4 +1,4 @@
-Registry v 4.9 - plugin for Total Commander 5.51 and newer.
+Registry v 5.2 - plugin for Total Commander 5.51 and newer.
 
 Home page: http://www.totalcmd.net/plugring/registry.html
 
@@ -10,7 +10,7 @@ while using or misusing this software. Think twice before move/delete, it's your
 
 This plugin is freeware.
 
-Works in W2K/XP/Vista/7.
+Works in W2K/XP/Vista/7/8.
 
 --------------------------------------------------------
 Usage:
@@ -61,7 +61,7 @@ FAQ:
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 TIPS:
-  - IF YOU RENAMED PLUGIN IN TC YOU SHOULD UPDATE THE NAME IN PLUGIN .ini FILE AS WELL!!!
+  - IF YOU RENAMED PLUGIN IN TC YOU SHOULD UPDATE THE NAME IN PLUGIN REGISTRY_VK.ini FILE AS WELL!!!
   - FOR UNICODE VALUE SEARCH IN win2k, XP CHECK "Unicode" IN TC SEARCH DIALOG
   - For much faster export consider turning off Total Commander option: Configuration->Operation->Calculate space->before copying/deleting
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -388,6 +388,29 @@ v 4.9 - 19.05.2011
   - Added: 64-bit registry support or 32-bit version of the plugin (see options)
   - Added: 64-bit plugin version (with access to 64 and 32-bit registry, see options)
   - Added: Delete search results from search window
+
+v 5.0 - 15.07.2012
+  - Fixed: Search window does not disappear right after opening (x64 only)
+  - Fixed: Recompiled in VS2008 for compatibility with Windows 2000 (also fixed search)
+  - Fixed: Better work in some x64 systems - no more duplicate Wow6432Node keys in WinXP x64, no crash during search
+  - Fixed: Crash when accessing remote registry (TC 8.01)
+  - Fixed: Main icon was not displayed in some systems
+  - Changed: Show found key path as if inside HKEY_CLASSES_ROOT only when searching in HKEY_CLASSES_ROOT, otherwise keep original HKLM path
+  - Changed: updated Danish and German translation
+
+v 5.1 - 21.07.2012
+  - Fixed: 32-bit plugin was not working properly with Wow6432Node key in WinXP x64 when accessing x64 registry
+  - Fixed: Main TC window was not captured properly in TC 8.01 and sometimes plugin dialogs were not working
+  - Added: Icon substitution - *.ico files with predefined names are loaded from plugin folder before falling back to icons from resources. 
+           File names are (w/o extension) - Main, String, StringSpecial, DWORD, Binary, BinarySpecial, Add, Connect, Disconnect, Host, Key, Search.
+           Main icon cannot be changed, file "Main.ico" changes search window icon.
+  - Added: Hungarian translation
+  - Changed: Danish column translation
+
+v 5.2 - 03.08.2012
+  - Fixed: Removed custom column <fs>.writedate as tc.writedate can be used instead
+  - Fixed: Hungarian translation in pluginst.inf
+  - Changed: Improved handling of spec symbols in file name when exporting a key into a file
 
 
 Author:
