@@ -1,0 +1,5 @@
+[rus]
+Registry Key=Ключ реестра
+Uninstall Command=Команда деинсталляции
+Hotfix=Заплатка
+Full path|Root|Path|Key name=Полный путь|Раздел|Путь|Имя ключа
