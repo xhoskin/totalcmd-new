@@ -1,5 +1,5 @@
 [Buttonbar]
-Buttoncount=23
+Buttoncount=28
 button1=wcmicons.dll,16
 cmd1=cm_GotoPreviousDir
 iconic1=0
@@ -99,3 +99,17 @@ cmd23=""%COMMANDER_PATH%\Soft\Putty\putty.exe""
 path23=%COMMANDER_PATH%\Soft\Putty\
 iconic23=0
 menu23=putty
+button24=
+iconic24=0
+button25=%COMMANDER_PATH%\Totalcmd.exe,5
+cmd25=cd Z:\tradeins\apps\index\modules\custom\templates\custom\
+iconic25=0
+button26=%COMMANDER_PATH%\Totalcmd.exe,6
+cmd26=cd Z:\tradeins\web\custom\
+iconic26=0
+button27=
+iconic27=0
+button28=%COMMANDER_PATH%\TOTALCMD64.EXE,1
+cmd28=cd Y:\ivanov\django\bidws
+path28=
+menu28=
