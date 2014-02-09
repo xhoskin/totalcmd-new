@@ -1,0 +1,6 @@
+[plugininstall]
+description=Plugin for managing uninstallation of applications.
+descriptionrus=ѕлагин дл€ управлени€ установленными приложени€ми.
+type=wfx
+file=Uninstaller64.wfx
+defaultdir=Uninstaller64
