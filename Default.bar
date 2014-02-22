@@ -115,5 +115,4 @@ cmd28=cd Z:\tradeins\apps\index\modules\custom\templates\custom
 iconic28=0
 button29=%COMMANDER_PATH%\TOTALCMD64.EXE,1
 cmd29=cd Z:\tradeins\web\custom
-path29=
-menu29=
+iconic29=0
