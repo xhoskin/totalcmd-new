@@ -1,3 +1,4 @@
 Cglpt64.sys Parallel port driver for Windows XP/Vista/7 X64
 Sfxhead.sfx Self extracting header for ZIP
 TOTALCMD64.EXE.MANIFEST Enables XP style on PCs where the internal manifest resource is ignored
+TOTALCMD.EXE Total Commander main program
