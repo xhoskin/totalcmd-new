@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTPutty version="1.0">
+	<Globals>
+		<PuttyLocation>C:\Program Files\totalcmd\Soft\Putty\kitty.exe</PuttyLocation>
+		<GUI>
+			<Pos Left="0" Top="0" Right="1920" Bottom="1040" Maximized="0"/>
+			<ServersBox Visible="1" Width="242" Height="968" Dock="left" Autohide="0"/>
+			<Toolbar Visible="1"/>
+			<MainMenu Visible="0"/>
+			<StartPage HideOnTab="1"/>
+		</GUI>
+		<General>
+			<TabCaption>0</TabCaption>
+			<NormalTermination>0</NormalTermination>
+			<AbnormalTermination>0</AbnormalTermination>
+			<QuitNoConfrim>1</QuitNoConfrim>
+			<CloseButtonOnTabs>1</CloseButtonOnTabs>
+		</General>
+	</Globals>
+	<Servers>
+		<Putty>
+			<Node Type="1">
+				<SavedSession>desert</SavedSession>
+				<DisplayName>192.168.0.15</DisplayName>
+				<ServerName>192.168.0.15</ServerName>
+				<PuttyConType>4</PuttyConType>
+				<Port>22</Port>
+				<UserName></UserName>
+				<Password>k6LrFZbnRFk=</Password>
+				<PasswordDelay>0</PasswordDelay>
+				<CLParams>-load desert 192.168.0.15 -ssh -P 22</CLParams>
+				<ScriptDelay>0</ScriptDelay>
+			</Node>
+		</Putty>
+	</Servers>
+	<Internals>
+		<Putty/>
+	</Internals>
+	<Recents>
+		<PuttyCon>
+			<Con0>192.168.0.15</Con0>
+		</PuttyCon>
+	</Recents>
+	<Hotkeys>
+		<NextTab>0</NextTab>
+		<PrevTab>0</PrevTab>
+		<AppSwitch>16576</AppSwitch>
+		<acPuttyLocation>0</acPuttyLocation>
+		<acSettings>0</acSettings>
+		<acHideServers>16450</acHideServers>
+		<acHideMenu>16461</acHideMenu>
+		<acHideToolbar>16468</acHideToolbar>
+		<acAddServer>0</acAddServer>
+		<acAddGroup>0</acAddGroup>
+		<acRemove>0</acRemove>
+		<acDetach>0</acDetach>
+		<acConnect>0</acConnect>
+		<acConnectTo>16459</acConnectTo>
+		<acTreeProps>0</acTreeProps>
+		<acSendScript>0</acSendScript>
+		<acAttach>0</acAttach>
+		<acRenameTab>0</acRenameTab>
+		<acImportTree>0</acImportTree>
+		<acExportTree>0</acExportTree>
+		<acHotkeysMap>0</acHotkeysMap>
+		<acDuplicate>0</acDuplicate>
+	</Hotkeys>
+</MTPutty>
